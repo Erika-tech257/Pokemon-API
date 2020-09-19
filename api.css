@@ -1,0 +1,43 @@
+html,body,section{
+    margin: 0px;
+    padding: 0px;
+    background-color: #cc0000;
+}
+
+/* Pokemon Logo (Text) */
+nav {
+    margin-top: -180px;
+    margin-left: 0px;
+    
+}
+
+
+@font-face {
+    font-family: 'Permanent Marker', cursive;
+    src: url('.assets/PermanentMarker-Regular.ttf') ;
+}
+
+body {
+    text-align: center;
+    background-color:#FFDE00;
+}
+
+.card {
+    border-radius: 150px 50px 100px 30px;
+    border: #cc0000;
+}
+.primary {
+    height:80vh;
+    width:80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+p {
+    font-weight:bold;
+    font-family: 'Permanent Marker', cursive;
+    color: #cc0000;
+}
