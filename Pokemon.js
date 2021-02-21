@@ -19,7 +19,7 @@ function displayPokemon(data) {
     img.setAttribute("src", "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg");
     img.setAttribute("width", "304");
     img.setAttribute("height", "228");
-    img.setAttribute("alt", "The Pulpit Rock");
+    img.setAttribute("alt", "Pikachua");
     document.body.appendChild(img);
 
     cardBody.insertBefore(img, goSomewhereBtn);
