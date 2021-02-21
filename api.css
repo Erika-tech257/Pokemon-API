@@ -22,11 +22,13 @@ body {
     background-color:#FFDE00;
 }
 
-.card {
+.card,.card1 {
     border-radius: 150px 50px 100px 30px;
     border: #cc0000;
+    position: relative;
+    justify-content: flex-start;
 }
-.primary {
+.primary,.secondary {
     height:80vh;
     width:80vw;
     display: flex;
